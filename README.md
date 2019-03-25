@@ -28,8 +28,7 @@ npm install --save concurrently
 ## http-proxy-middleware
 npm install http-proxy-middleware --save
 
-## Passport 
-Base passport module (OAuth 2.0): 
+## Passport - Base passport module (OAuth 2.0)        
 npm install passport-google-oauth20@2 --save
 
 Google+ API https://console.cloud.google.com/        
