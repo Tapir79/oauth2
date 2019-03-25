@@ -1,4 +1,8 @@
-
+# Google+ API Oauth2 testing with MongoDB
+The Google developer console:        
+https://console.developers.google.com/        
+The MongoDB console:      
+https://cloud.mongodb.com/       
     
 # Run                 
 > Server: node index.js      
