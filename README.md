@@ -51,25 +51,5 @@ npm install --save axios redux-thunk
 npm install materialize-css@next
 
 # install Heroku cli 
-brew tap heroku/brew && brew install heroku
-
-## Heroku deployment 
-1. Login to Heroku:     
-> heroku login 
-heroku: Press any key to open up the browser to login or q to exit: 
-(login in the browser)
-1. heroku create 
-Creating app... done, ⬢ tranquil-meadow-47893
-https://tranquil-meadow-47893.herokuapp.com/ | https://git.heroku.com/tranquil-meadow-47893.git
-1. Set remote repo called heroku 
-> git remote add heroku https://git.heroku.com/tranquil-meadow-47893.git
-> heroku buildpacks:set heroku/nodejs
-> git push heroku master    
-1. Open https://tranquil-meadow-47893.herokuapp.com/
-
-# Git         
-Git add and commit:       
-> git add .         
-> git commit -m "changed something"        
-> git push heroku master (heroku) (OR) git push origin master (github)        
+brew tap heroku/brew && brew install heroku      
 
