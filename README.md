@@ -48,8 +48,5 @@ npm install --save redux react-redux react-router-dom
 npm install --save axios redux-thunk
 
 ## Materialize 
-npm install materialize-css@next
-
-# install Heroku cli 
-brew tap heroku/brew && brew install heroku      
+npm install materialize-css@next     
 
