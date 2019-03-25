@@ -6,29 +6,8 @@ import Landing from './Landing';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
 
-//const Header = () => <h2>Header</h2>
 const Dashboard = () => <h2>Dashboard</h2>
-const SurveyNew = () => <h2>SurveyNew</h2>
-//const Landing = () => <h2>Landing</h2>
-
-// const App = () => {
-
-//         return (
-//             <div className="container">
-//                 {/* browser router takes only 1 child component 
-//             exact = {true}*/}
-//                 <BrowserRouter>
-//                     <div>
-//                         <Header />
-//                         <Route exact path="/" component={Landing} />
-//                         <Route exact path="/surveys" component={Dashboard} />
-//                         <Route path="/surveys/new" component={SurveyNew} />
-//                     </div>
-//                 </BrowserRouter>
-//             </div>
-//         )
-
-// };
+const DashboardNew = () => <h2>DashboardNew</h2>
 
 class App extends Component {
 
@@ -45,8 +24,8 @@ class App extends Component {
                     <div>
                         <Header />
                         <Route exact path="/" component={Landing} />
-                        <Route exact path="/surveys" component={Dashboard} />
-                        <Route path="/surveys/new" component={SurveyNew} />
+                        <Route exact path="/dashboard" component={Dashboard} />
+                        <Route path="/dashboard/new" component={DashboardNew} />
                     </div>
                 </BrowserRouter>
             </div>
