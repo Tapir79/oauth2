@@ -1,9 +1,21 @@
 {
-  "name": "google-oauth2-test",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "11.9.0",
+    "npm": "6.5.0"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -15,6 +27,7 @@
     "http-proxy-middleware": "^0.19.1",
     "mongoose": "^5.4.19",
     "nodemon": "^1.18.10",
+    "passport": "^0.4.0",
     "passport-google-oauth20": "^2.0.0"
   }
 }
