@@ -67,12 +67,7 @@ https://tranquil-meadow-47893.herokuapp.com/ | https://git.heroku.com/tranquil-m
 > git push heroku master    
 1. Open https://tranquil-meadow-47893.herokuapp.com/
 
-# Git
-Remove remote files:        
-> git rm -r --cached File-or-FolderName       
-> git commit -m "Removed folder from repository"       
-> git push origin master         
-
+# Git         
 Git add and commit:       
 > git add .         
 > git commit -m "changed something"        
