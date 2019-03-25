@@ -1,15 +1,13 @@
 
-# install and run
-npm init         
-npm install --save express       
-         
+    
+# Run                 
 > Server: node index.js      
 > Client: npm start         
-> npm run dev (starts in development mode)            
-              
-# Specify Node environment 
-Engines in package.json = when deployed in Heroku here are the versions of node and npm to use
-Scripts in package.json = how we should start up the app
+> Both concurrently: npm run dev (starts in development mode)    
+
+# install node.js and express
+npm init         
+npm install --save express   
 
 ## Nodemon hot reload
 npm install --save nodemon 
